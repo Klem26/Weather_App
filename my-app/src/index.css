@@ -16,7 +16,7 @@
 
 .app {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
@@ -44,4 +44,8 @@
 
 ::placeholder {
   color: #f8f8f8;
+}
+
+.main-section {
+  padding: 6rem;
 }
