@@ -1,5 +1,4 @@
 export type optionType = {
-  city: string;
   name: string;
   country: string;
   lat: number;
@@ -7,8 +6,12 @@ export type optionType = {
 };
 
 export type forecastType = {
-  name: string;
-  country: string;
+  city: {
+    name: string;
+    country: string;
+    sunrise: number;
+    sunset: number;
+  };
   list: [
     {
       dt: number;
