@@ -8,7 +8,7 @@ function App(): JSX.Element {
     useForecast();
   return (
     <div className="app">
-      <section>
+      <section className="main-section">
         {forecast ? (
           <Forecast data={forecast} />
         ) : (
